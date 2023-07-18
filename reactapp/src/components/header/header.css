@@ -1,0 +1,55 @@
+header {
+    background-color: #34495E;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 1rem;
+}
+
+header button {
+    background-color: #34495E;
+    outline: none;
+    border: none;
+    padding: 0.75rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+header button:hover {
+    background-color: #1ABC9C;
+}
+
+#options-container {
+    display: inline-flex;
+}
+
+#algorithms-container {
+    position: absolute;
+    background-color: #34495E;
+    top: 105%;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+#algorithms-container > ul {
+    padding-left: 0.25rem;
+}
+
+#algorithms-container > ul > li {
+    list-style: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+#algorithms-container > ul > li > span {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+#algorithms-container > ul > li > span:hover {
+    background-color: #1ABC9C;
+}

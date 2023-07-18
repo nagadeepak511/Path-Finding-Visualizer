@@ -1,0 +1,15 @@
+#grid > div {
+    border: 0.75px solid skyblue;
+    overflow: hidden;
+}
+
+#grid > div > div {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+@keyframes wall {
+    0% {
+        transform: scale(50%);
+    }
+}
